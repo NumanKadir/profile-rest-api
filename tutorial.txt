@@ -3,3 +3,13 @@
 3. create README.md
 4. create .gitignore
 5. create LICENSE
+6. create ssh key (ssh-keygen -t rsa -b 4096 -C "nak.numan96@gmail.com")
+7. push to github
+8. create venv (py -m venv venv)
+9. create requirements.txt
+10. add package needed with the version (recommended)
+11. install requirements (pip install -r requirements.txt)
+12. django-admin.py startproject profiles_project .
+13. python manage.py startapp profiles_api
+14. add apps into profiles_project/settings.py
+15. python manage.py runserver
