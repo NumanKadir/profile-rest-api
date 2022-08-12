@@ -11,5 +11,5 @@
 11. install requirements (pip install -r requirements.txt)
 12. django-admin.py startproject profiles_project .
 13. python manage.py startapp profiles_api
-14. add apps into profiles_project/settings.py
+14. add apps into profiles_project/settings.py ('rest_framework','rest_framework.authtoken','profiles_api',)
 15. python manage.py runserver
